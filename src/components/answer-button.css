@@ -1,0 +1,10 @@
+.AnswerButton {
+  border: 2px solid black;
+  text-align: center;
+  background: #add8e6;
+  color: #333;
+  margin: 10px;
+  padding: 10px;
+}
+
+export default AnswerButton;
