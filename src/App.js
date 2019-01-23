@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './App.css';
-import './components/AnswerButton.js';
+import AnswerButton from './components/answer-button';
 
 class App extends Component {
     render() {
