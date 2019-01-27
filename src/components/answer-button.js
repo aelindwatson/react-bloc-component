@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
-import './answer-button.css';
 
 class AnswerButton extends Component {
+  handleClick = () => console.log('button clicked');
   render() {
-    return <div>AnswerButton</div>;
+    return <div>{this.props.name}
+    <button onClick={this.handleClick.bind(this)}></button>
+    </div>;
   }
 }
 

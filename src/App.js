@@ -3,12 +3,19 @@ import './App.css';
 import AnswerButton from './components/answer-button';
 
 class App extends Component {
-    render() {
-        return (
-            <div className="App">
-                <AnswerButton />
-                <AnswerButton />
-            </div>
+  constructor(props) {
+    super(props);
+    this.state = { vote: '' };
+
+}
+
+
+render() {
+  return (
+      <div className="App">
+          <AnswerButton name="Vote Yes" />
+          <AnswerButton name="Vote No" />
+      </div>
         );
     }
 }
